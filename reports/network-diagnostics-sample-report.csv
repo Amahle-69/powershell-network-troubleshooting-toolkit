@@ -1,0 +1,8 @@
+AuditTimestamp,CheckName,Status,ObservedValue,Finding,Recommendation
+SAMPLE-NOT-A-REAL-RUN,Network adapter status,Pass,Two adapters report Up; details omitted,At least one network adapter reports an Up state.,Continue checking IP configuration and connectivity.
+SAMPLE-NOT-A-REAL-RUN,IPv4 configuration,Pass,IPv4 configuration detected; addresses omitted,An IPv4 address is present on an active adapter.,Continue with gateway DNS and connectivity checks.
+SAMPLE-NOT-A-REAL-RUN,Default gateway configuration,Pass,Default gateway detected; address omitted,A default gateway is configured on an active adapter.,Continue with the selected connectivity test.
+SAMPLE-NOT-A-REAL-RUN,DNS server configuration,Pass,DNS configuration detected; addresses omitted,DNS server configuration is present on active adapters.,Continue with the DNS name-resolution check.
+SAMPLE-NOT-A-REAL-RUN,Destination reachability,Pass,Illustrative destination responded,The selected destination responded to the test.,Continue with DNS and TCP checks.
+SAMPLE-NOT-A-REAL-RUN,DNS name resolution,Pass,Illustrative hostname resolved; IP addresses omitted,The selected DNS name returned an answer.,Continue with the TCP service connectivity check.
+SAMPLE-NOT-A-REAL-RUN,TCP service connectivity,Pass,Illustrative TCP connection succeeded; target details omitted,A TCP connection to the selected host and port succeeded.,If the reported application problem persists investigate the application and its configuration.
